@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #181a20;
+    color: #ececec;
+}
+
+header {
+    background: #1a1d23;
+    padding: 18px 0 8px 0;
+    text-align: center;
+    border: 3px solid #ff4655;
+    margin: 8px 8px 18px 8px;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ff4655;
+    letter-spacing: 2px;
+}
+
+.subtitulo {
+    color: #bdbdbd;
+    margin-top: 8px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    gap: 24px;
+    margin: 0 12px 24px 12px;
+}
+
+.info {
+    background: #23262e;
+    flex: 1.2;
+    padding: 30px 24px;
+    border: 2px solid #ff4655;
+    border-radius: 8px;
+    min-width: 320px;
+    box-sizing: border-box;
+    font-size: 1.08em;
+    color: #ececec;
+}
+
+.info h2 {
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff4655;
+}
+
+.info h3 {
+    margin-bottom: 8px;
+    margin-top: 18px;
+    font-size: 1.15em;
+    color: #ff4655;
+}
+
+.info ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.info .nota {
+    margin-top: 22px;
+    color: #bdbdbd;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.juegos {
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: min-content;
+    gap: 24px;
+}
+
+.card {
+    background: #23262e;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #0004;
+    padding: 24px 20px;
+    border: 2px solid #ff4655;
+    min-width: 220px;
+    font-size: 1.08em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #ececec;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: #ff4655;
+}
+
+.card ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 18px;
+}
+
+.card .ejemplo {
+    color: #bdbdbd;
+    font-size: 0.98em;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.card-img {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 18px 10px;
+}
+
+.card-img img {
+    width: 240px; /* Antes 120px */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #ff4655;
+    background: #fff;
+}
+
+.final {
+    background: #23262e;
+    border: 2px solid #ff4655;
+    border-radius: 8px;
+    padding: 22px 28px;
+    margin: 0 12px 32px 12px;
+    font-size: 1.08em;
+    box-sizing: border-box;
+    color: #ececec;
+}
